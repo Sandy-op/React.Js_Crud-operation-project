@@ -1,0 +1,52 @@
+{
+  "employee": [
+    {
+      "id": "9283",
+      "empName": "Prakash Deep ",
+      "empSalary": "2000000",
+      "empCompany": "DeepMindsTech.in"
+    },
+    {
+      "empName": "Sandeep Anand",
+      "empSalary": "200000000",
+      "empCompany": "Google",
+      "id": "b0c3"
+    },
+    {
+      "empName": "Prakash Deep",
+      "empSalary": "1000000",
+      "empCompany": "DeepmindsTech.in",
+      "id": "0885"
+    },
+    {
+      "id": "9d61",
+      "empName": "Chinu Choudhary",
+      "empSalary": "50000",
+      "empCompany": "Deeptech.in"
+    },
+    {
+      "id": "4640",
+      "empName": "",
+      "empSalary": "",
+      "empCompany": ""
+    },
+    {
+      "id": "8211",
+      "empName": "",
+      "empSalary": "",
+      "empCompany": ""
+    },
+    {
+      "id": "c1bc",
+      "empName": "",
+      "empSalary": "",
+      "empCompany": ""
+    },
+    {
+      "id": "b592",
+      "empName": "",
+      "empSalary": "",
+      "empCompany": ""
+    }
+  ]
+}

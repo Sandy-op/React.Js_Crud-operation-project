@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#nav{
+    height: 72px;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.445);
+    display: flex;
+    justify-content: center;
+}
+
+#nav>article{
+    height: 100%;
+    width: 95%;
+    display: flex;
+}
+
+#nav>article>.Logo{
+    height: 100%;
+    width: 30%;
+}
+#nav>article>.Menu{
+    height: 100%;
+    width: 40%;
+}
+
+#nav>article>.Btn{
+    height: 100%;
+    width: 30%;
+}
+
+#logoBlock{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#logoBlock>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: 200;
+    margin-left: 10px;
+    color: rgb(45,136,226);
+}
+
+
+#MenuBlock{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#MenuBlock>li{
+    align-items: center;
+    padding: 0px 15px;
+    list-style: none;;
+}
+#MenuBlock>li>a{
+    color: rgb(118,124,131);
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    text-decoration: none;
+
+}
+#MenuBlock>li>a:hover{
+    color: black;
+    cursor: pointer;
+}
+#Btn{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+}
+#Btn>button{
+   border: none; 
+   background-color: rgb(23,124,226);
+   border-radius: 5px;
+   height: 32px;
+   width: 140px;
+   color: white;
+   font-family: sans-serif;
+   font-weight: 500;
+   margin-left: 67%;
+}
+#Btn>button:hover{
+    background-color: rgb(21, 112, 204);
+}
+

@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#nav {
+  color: white;
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+#nav>a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----------------------------------------------------------------------- */
+
+#createUser {
+  height: 86.5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#createUser>form {
+  height: 300px;
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#createUser>form>button {
+  height: 25px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+#createUser>form>button:hover {
+  cursor: pointer;
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+#userPage {
+  height: 89.5vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: white;
+  align-items: center;
+}
+
+#userPage>div {
+  height: 270px;
+  width: 300px;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px white;
+
+}
+
+#userPage>div:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+#userPage>div>table> {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#userPage>div>table>tr>td {
+  padding: 15px;
+
+}
+
+#userPage>div>table>tr>td>button {
+  height: 25px;
+  width: 80px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  font-size: 12px;
+
+}
+
+#userPage>div>table>tr>td>button:hover {
+  cursor: pointer;
+}
+
+#userPage>div>table>tr>td>button>a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+
+}
+
+/* ------------------------------------------------------------------------------------- */
